@@ -5,13 +5,16 @@ This guide walks you through building a serverless CRUD API using AWS DynamoDB, 
 
 # What You'll Build
 
-A DynamoDB table to store employee data (ID, job title, name, salary)
-A Lambda function to process API requests and interact with DynamoDB
-An API Gateway to expose endpoints for CRUD operations on employee data
+A DynamoDB table to store employee data (ID, job title, name, salary).
+
+A Lambda function to process API requests and interact with DynamoDB.
+
+An API Gateway to expose endpoints for CRUD operations on employee data.
 
 ## Prerequisites
 
-An AWS account (You can sign up for a free tier account)
+An AWS account (You can sign up for a free tier account).
+
 Basic understanding of AWS services and concepts like Lambda, DynamoDB, and API Gateway
 
 ## Steps
@@ -19,10 +22,14 @@ Basic understanding of AWS services and concepts like Lambda, DynamoDB, and API 
 ## Setting Up DynamoDB Table
 
 Sign in to the AWS Management Console and search for DynamoDB.
-Click "Create Table" and name your table "employee_info". (Screenshot 1: Create DynamoDB Table)
+
+Click "Create Table" and name your table "employee_info". (Screenshot 1: Create DynamoDB Table).
+
 Set "EmployeeID" as the Partition Key (primary key). Leave the Sort Key blank.
+
 Click "Create table".
-Creating a Lambda Function
+
+Creating a Lambda Function.
 
 Go to the Lambda service in the console and click "Create function".
 Choose "Author from scratch" and name your function "serverless_api_demo".
