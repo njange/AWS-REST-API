@@ -1,7 +1,7 @@
 # AWS-REST-API
 ## Building a Serverless CRUD API with AWS: A Step-by-Step Guide
 
-This guide walks you through building a serverless CRUD API using AWS DynamoDB, Lambda, and API Gateway. We'll follow a video tutorial (link to be provided) and provide additional explanations and screenshots along the way.
+This guide walks you through building a serverless CRUD API using AWS DynamoDB, Lambda, and API Gateway.
 
 # What You'll Build
 
