@@ -72,12 +72,14 @@ Choose "Create API".
 ## Defining Resources and Methods
 
 Create a resource named "status". Enable CORS for this resource. (Screenshot 2: Create Resource with CORS).
+![Screenshot at 2024-05-30 17-06-20](https://github.com/njange/AWS-REST-API/assets/128843179/2c8116df-1db8-446b-91f5-d3de3b3371c2)
 
 Under the "status" resource, create a GET method and integrate it with your Lambda function "serverless_api_demo".
 
 Create another resource named "employee" and enable CORS.
 
 Under the "employee" resource, create GET, POST, PUT, and DELETE methods, each integrating with your Lambda function.
+![Screenshot at 2024-05-30 18-47-29](https://github.com/njange/AWS-REST-API/assets/128843179/3480f85d-f6fb-40b1-8052-38938a9ed02a)
 
 ## Deploying the API
 
@@ -86,6 +88,7 @@ Click "Actions" -> "Deploy API" in the API Gateway console.
 Choose a new stage name (e.g., "prod") and click "Deploy".
 
 This will generate a URL for your API. Copy this URL for later use.
+![Screenshot at 2024-05-30 18-51-35](https://github.com/njange/AWS-REST-API/assets/128843179/5563c800-62b1-498e-bfec-307683f35a9e)
 
 ## Testing the API
 
@@ -100,6 +103,7 @@ Send a GET request to the "/employee/{id}" endpoint to retrieve employee details
 Send a PUT request to the "/employee/{id}" endpoint with updated employee data to modify an existing employee.
 
 Send a DELETE request to the "/employee/{id}" endpoint to delete an employee.
+![Screenshot at 2024-05-31 23-01-11](https://github.com/njange/AWS-REST-API/assets/128843179/ea6d2fb8-07d9-4cbb-9bb3-73909ae341e0)
 
 ## Verifying Data in DynamoDB
 
