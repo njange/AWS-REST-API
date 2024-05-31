@@ -25,7 +25,7 @@ Basic understanding of AWS services and concepts like Lambda, DynamoDB, and API 
 
 Sign in to the AWS Management Console and search for DynamoDB.
 
-Click "Create Table" and name your table "employee_info". (Screenshot 1: Create DynamoDB Table).
+Click "Create Table" and name your table "employee_info".
 
 Set "EmployeeID" as the Partition Key (primary key). Leave the Sort Key blank.
 
@@ -37,7 +37,7 @@ Go to the Lambda service in the console and click "Create function".
 
 Choose "Author from scratch" and name your function "serverless_api_demo".
 
-Select "Python 3.9" as the Runtime.
+Select "Python 3.11" as the Runtime.
 
 For "Execution role", choose "Create a new role with basic Lambda permissions".
 
@@ -57,7 +57,8 @@ Click "Add permissions".
 
 ## Building the Lambda Function
 
-In the function code editor, paste the code provided in the video tutorial (link to be provided). The code will handle different HTTP methods (GET, POST, PUT, DELETE) and interact with DynamoDB based on the path and request body.
+In the function code editor, paste the code provided in the video tutorial. The code will handle different HTTP methods (GET, POST, PUT, DELETE) and interact with DynamoDB based on the path and request body.
+![Screenshot at 2024-05-30 23-29-16](https://github.com/njange/AWS-REST-API/assets/128843179/e3ed1a5c-4488-4895-948e-39a7bb0d1202)
 
 ## Creating the API in API Gateway
 
@@ -71,7 +72,7 @@ Choose "Create API".
 
 ## Defining Resources and Methods
 
-Create a resource named "status". Enable CORS for this resource. (Screenshot 2: Create Resource with CORS).
+Create a resource named "status". Enable CORS for this resource.
 ![Screenshot at 2024-05-30 17-06-20](https://github.com/njange/AWS-REST-API/assets/128843179/2c8116df-1db8-446b-91f5-d3de3b3371c2)
 
 Under the "status" resource, create a GET method and integrate it with your Lambda function "serverless_api_demo".
@@ -109,7 +110,7 @@ Send a DELETE request to the "/employee/{id}" endpoint to delete an employee.
 
 Go back to the DynamoDB console and navigate to your "employee_info" table.
 
-You should see the newly created employee entries with their corresponding data. (Screenshot 3: View Employee Data in DynamoDB)
+You should see the newly created employee entries with their corresponding data.
 
 ## Conclusion
 
