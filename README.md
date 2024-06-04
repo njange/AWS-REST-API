@@ -59,6 +59,7 @@ Click "Add permissions".
 ## Building the Lambda Function
 
 In the function code editor, paste the code provided in the video tutorial. The code will handle different HTTP methods (GET, POST, PUT, DELETE) and interact with DynamoDB based on the path and request body.
+
 ![Screenshot at 2024-05-30 23-29-16](https://github.com/njange/AWS-REST-API/assets/128843179/e3ed1a5c-4488-4895-948e-39a7bb0d1202)
 
 ## Creating the API in API Gateway
