@@ -83,6 +83,7 @@ Under the "status" resource, create a GET method and integrate it with your Lamb
 Create another resource named "employee" and enable CORS.
 
 Under the "employee" resource, create GET, POST, PUT, and DELETE methods, each integrating with your Lambda function.
+
 ![Screenshot at 2024-05-30 18-47-29](https://github.com/njange/AWS-REST-API/assets/128843179/3480f85d-f6fb-40b1-8052-38938a9ed02a)
 
 ## Deploying the API
