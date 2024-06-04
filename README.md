@@ -75,6 +75,7 @@ Choose "Create API".
 ## Defining Resources and Methods
 
 Create a resource named "status". Enable CORS for this resource.
+
 ![Screenshot at 2024-05-30 17-06-20](https://github.com/njange/AWS-REST-API/assets/128843179/2c8116df-1db8-446b-91f5-d3de3b3371c2)
 
 Under the "status" resource, create a GET method and integrate it with your Lambda function "serverless_api_demo".
