@@ -125,4 +125,4 @@ By following these steps, you've successfully built a serverless CRUD API on AWS
 ## Additional Notes
 
 
-Consider implementing error handling and validation logic in your Lambda function
+Consider implementing error handling and validation logic in your Lambda function.
