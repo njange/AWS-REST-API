@@ -104,6 +104,7 @@ Send a GET request to the "/employee/{id}" endpoint to retrieve employee details
 Send a PUT request to the "/employee/{id}" endpoint with updated employee data to modify an existing employee.
 
 Send a DELETE request to the "/employee/{id}" endpoint to delete an employee.
+
 ![Screenshot at 2024-05-31 23-01-11](https://github.com/njange/AWS-REST-API/assets/128843179/ea6d2fb8-07d9-4cbb-9bb3-73909ae341e0)
 
 ## Verifying Data in DynamoDB
