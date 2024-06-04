@@ -93,6 +93,7 @@ Click "Actions" -> "Deploy API" in the API Gateway console.
 Choose a new stage name (e.g., "prod") and click "Deploy".
 
 This will generate a URL for your API. Copy this URL for later use.
+
 ![Screenshot at 2024-05-30 18-51-35](https://github.com/njange/AWS-REST-API/assets/128843179/5563c800-62b1-498e-bfec-307683f35a9e)
 
 ## Testing the API
